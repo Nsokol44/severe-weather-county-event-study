@@ -1,0 +1,7 @@
+peril,major_shock_county_years,distinct_counties,total_damage_2019_Busd,median_damage_2019_kusd,share_via_zone_channel,median_months_reported
+tornado,1506,1016,32.85,3082.5,0.0,
+hurricane,643,377,105.27,7874.3,0.998,
+hail_ice,1816,978,40.01,3229.1,0.474,
+drought,5732,1740,,,,6.0
+flood,3394,1754,148.72,3586.6,0.124,
+wind,1592,1005,19.57,2349.5,0.394,

@@ -1,0 +1,210 @@
+{
+  "stacked": [
+    {
+      "peril": "tornado",
+      "outcome": "ln_pc_income",
+      "n_cohorts": 719,
+      "n_obs": 13132778,
+      "avg_post": -0.0083344394966243,
+      "avg_post_se": 0.0023542391838379116,
+      "avg_post_lead_adjusted": -0.014336760914415388,
+      "avg_post_lead_adjusted_se": 0.0029497702410407308,
+      "pretrend_wald": 9.317465646407523,
+      "pretrend_p": 0.009478465686744153
+    },
+    {
+      "peril": "tornado",
+      "outcome": "ln_employment",
+      "n_cohorts": 719,
+      "n_obs": 13132778,
+      "avg_post": -0.0012089835560900749,
+      "avg_post_se": 0.0020037426807297436,
+      "avg_post_lead_adjusted": -0.00327020882172439,
+      "avg_post_lead_adjusted_se": 0.002942172099976303,
+      "pretrend_wald": 4.100342801908438,
+      "pretrend_p": 0.12871284019338547
+    },
+    {
+      "peril": "hurricane",
+      "outcome": "ln_pc_income",
+      "n_cohorts": 223,
+      "n_obs": 4544418,
+      "avg_post": -0.010694047307419838,
+      "avg_post_se": 0.003360484820345134,
+      "avg_post_lead_adjusted": -0.010582307527356715,
+      "avg_post_lead_adjusted_se": 0.004510842432389016,
+      "pretrend_wald": 18.18690261136266,
+      "pretrend_p": 0.00011239947338737011
+    },
+    {
+      "peril": "hurricane",
+      "outcome": "ln_employment",
+      "n_cohorts": 223,
+      "n_obs": 4544418,
+      "avg_post": 0.0033683080466488514,
+      "avg_post_se": 0.0033405940746638724,
+      "avg_post_lead_adjusted": -0.0012045353024849412,
+      "avg_post_lead_adjusted_se": 0.005022203191479497,
+      "pretrend_wald": 4.309641847221044,
+      "pretrend_p": 0.1159239479963059
+    },
+    {
+      "peril": "hail_ice",
+      "outcome": "ln_pc_income",
+      "n_cohorts": 600,
+      "n_obs": 10881519,
+      "avg_post": 0.0033954099097501726,
+      "avg_post_se": 0.0034763046075725894,
+      "avg_post_lead_adjusted": 0.008841266824881086,
+      "avg_post_lead_adjusted_se": 0.004128445016610744,
+      "pretrend_wald": 6.707828777082006,
+      "pretrend_p": 0.0349472887457265
+    },
+    {
+      "peril": "hail_ice",
+      "outcome": "ln_employment",
+      "n_cohorts": 600,
+      "n_obs": 10881519,
+      "avg_post": 0.004446841222558989,
+      "avg_post_se": 0.0020800228979889635,
+      "avg_post_lead_adjusted": 0.004865932911334735,
+      "avg_post_lead_adjusted_se": 0.0029629437076178506,
+      "pretrend_wald": 2.0370171194856392,
+      "pretrend_p": 0.3611331472354625
+    },
+    {
+      "peril": "drought",
+      "outcome": "ln_pc_income",
+      "n_cohorts": 921,
+      "n_obs": 13040140,
+      "avg_post": -0.011639033577522368,
+      "avg_post_se": 0.0018210527386419925,
+      "avg_post_lead_adjusted": -0.004537900197008646,
+      "avg_post_lead_adjusted_se": 0.0024151294892404535,
+      "pretrend_wald": 34.004311565631454,
+      "pretrend_p": 4.1310225240565046e-08
+    },
+    {
+      "peril": "drought",
+      "outcome": "ln_employment",
+      "n_cohorts": 921,
+      "n_obs": 13040140,
+      "avg_post": -0.004157197930778764,
+      "avg_post_se": 0.0017507108706419005,
+      "avg_post_lead_adjusted": -0.0016361051325882749,
+      "avg_post_lead_adjusted_se": 0.0025014348186163677,
+      "pretrend_wald": 3.99652040233349,
+      "pretrend_p": 0.13557094434650452
+    },
+    {
+      "peril": "flood",
+      "outcome": "ln_pc_income",
+      "n_cohorts": 1115,
+      "n_obs": 17138341,
+      "avg_post": 5.2815575640074346e-05,
+      "avg_post_se": 0.0018758516589751735,
+      "avg_post_lead_adjusted": -0.0065368074070319415,
+      "avg_post_lead_adjusted_se": 0.0024229279443350165,
+      "pretrend_wald": 24.196570651524276,
+      "pretrend_p": 5.569054173260035e-06
+    },
+    {
+      "peril": "flood",
+      "outcome": "ln_employment",
+      "n_cohorts": 1115,
+      "n_obs": 17138341,
+      "avg_post": 0.0004617601709302729,
+      "avg_post_se": 0.0015348561264896781,
+      "avg_post_lead_adjusted": 0.0010299965446463326,
+      "avg_post_lead_adjusted_se": 0.002290271165842935,
+      "pretrend_wald": 5.538664011863241,
+      "pretrend_p": 0.06270387657314402
+    },
+    {
+      "peril": "wind",
+      "outcome": "ln_pc_income",
+      "n_cohorts": 728,
+      "n_obs": 13210241,
+      "avg_post": -0.0007387090175840659,
+      "avg_post_se": 0.0026476723606819784,
+      "avg_post_lead_adjusted": -0.009055216961133521,
+      "avg_post_lead_adjusted_se": 0.0033928792081214893,
+      "pretrend_wald": 18.63391599522689,
+      "pretrend_p": 8.988693118672231e-05
+    },
+    {
+      "peril": "wind",
+      "outcome": "ln_employment",
+      "n_cohorts": 728,
+      "n_obs": 13210241,
+      "avg_post": -0.0014218239901117751,
+      "avg_post_se": 0.0017977706411204917,
+      "avg_post_lead_adjusted": -0.0012344347418146975,
+      "avg_post_lead_adjusted_se": 0.0025286986272735567,
+      "pretrend_wald": 0.07466710808616252,
+      "pretrend_p": 0.963354750880411
+    }
+  ],
+  "contrast_raw": null,
+  "lead_adjusted_contrast": [
+    {
+      "outcome": "ln_pc_income",
+      "n_stacks": 3191,
+      "n_obs": 8823136,
+      "raw_avg_post_contrast": {
+        "slow_minus_fast": -0.008676521568893862,
+        "se": 0.0023837876874111723
+      },
+      "lead_adjusted_contrast": {
+        "slow_minus_fast": 0.001486791596353748,
+        "se": 0.003050185992185626
+      },
+      "fast_lead_mean": {
+        "coef": 0.003107056791024419,
+        "se": 0.0012483055350797864
+      },
+      "fast_post_lead_adjusted": {
+        "coef": -0.006107239382398251,
+        "se": 0.001996765176695047
+      },
+      "slow_lead_mean": {
+        "coef": -0.00705625637422319,
+        "se": 0.0017561609397149195
+      },
+      "slow_post_lead_adjusted": {
+        "coef": -0.0046204477860445035,
+        "se": 0.002415547567129075
+      }
+    },
+    {
+      "outcome": "ln_employment",
+      "n_stacks": 3191,
+      "n_obs": 8823136,
+      "raw_avg_post_contrast": {
+        "slow_minus_fast": -0.004780857093761015,
+        "se": 0.00206121450029324
+      },
+      "lead_adjusted_contrast": {
+        "slow_minus_fast": -0.0013980370977241716,
+        "se": 0.0029142698650026465
+      },
+      "fast_lead_mean": {
+        "coef": 0.0009187062202223653,
+        "se": 0.0008288154111119517
+      },
+      "fast_post_lead_adjusted": {
+        "coef": -0.00029983367800596816,
+        "se": 0.0016192447694461547
+      },
+      "slow_lead_mean": {
+        "coef": -0.0024641137758144777,
+        "se": 0.0013643398287231335
+      },
+      "slow_post_lead_adjusted": {
+        "coef": -0.0016978707757301396,
+        "se": 0.0025057717402804285
+      }
+    }
+  ],
+  "source": "baseline tables in data/baseline_corrected"
+}

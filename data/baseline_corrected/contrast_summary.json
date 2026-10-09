@@ -1,0 +1,98 @@
+{
+  "contrast": [
+    {
+      "outcome": "ln_pc_income",
+      "n_stacks": 3191,
+      "n_obs": 8823136,
+      "contrasts": {
+        "avg_post": {
+          "slow_minus_fast": -0.008676521568893862,
+          "se": 0.0023837876874111723
+        },
+        "k0": {
+          "slow_minus_fast": -0.008924193945786939,
+          "se": 0.0022982424952628167
+        },
+        "k3": {
+          "slow_minus_fast": -0.014970432114498259,
+          "se": 0.0035288981342877107
+        }
+      }
+    },
+    {
+      "outcome": "ln_employment",
+      "n_stacks": 3191,
+      "n_obs": 8823136,
+      "contrasts": {
+        "avg_post": {
+          "slow_minus_fast": -0.004780857093761015,
+          "se": 0.00206121450029324
+        },
+        "k0": {
+          "slow_minus_fast": -3.2296769376762404e-05,
+          "se": 0.001381627943343619
+        },
+        "k3": {
+          "slow_minus_fast": -0.009109637877955826,
+          "se": 0.002858033315944179
+        }
+      }
+    }
+  ],
+  "drought_ge6": [
+    {
+      "peril": "drought",
+      "outcome": "ln_pc_income",
+      "n_cohorts": 736,
+      "n_obs": 12441147,
+      "avg_post": -0.013095669211596276,
+      "avg_post_se": 0.002545912045882131,
+      "avg_post_lead_adjusted": 0.0010127911815542255,
+      "avg_post_lead_adjusted_se": 0.002900377137286635,
+      "pretrend_wald": 85.19094413283162,
+      "pretrend_p": 0.0
+    },
+    {
+      "peril": "drought",
+      "outcome": "ln_employment",
+      "n_cohorts": 736,
+      "n_obs": 12441147,
+      "avg_post": -0.00016755259263074532,
+      "avg_post_se": 0.0019243290168602912,
+      "avg_post_lead_adjusted": 0.002581808226664924,
+      "avg_post_lead_adjusted_se": 0.0026521554189631153,
+      "pretrend_wald": 4.930999712932851,
+      "pretrend_p": 0.08496636077037278
+    }
+  ],
+  "rings_extra": [
+    {
+      "pool": "drought",
+      "outcome": "ln_pc_income",
+      "n_clean_events": 929,
+      "n_obs": 59131,
+      "n_hit_counties": 806
+    },
+    {
+      "pool": "drought",
+      "outcome": "ln_employment",
+      "n_clean_events": 929,
+      "n_obs": 59131,
+      "n_hit_counties": 806
+    },
+    {
+      "pool": "drought+flood",
+      "outcome": "ln_pc_income",
+      "n_clean_events": 2080,
+      "n_obs": 59131,
+      "n_hit_counties": 1546
+    },
+    {
+      "pool": "drought+flood",
+      "outcome": "ln_employment",
+      "n_clean_events": 2080,
+      "n_obs": 59131,
+      "n_hit_counties": 1546
+    }
+  ]
+}

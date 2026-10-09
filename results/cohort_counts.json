@@ -1,0 +1,11 @@
+{
+  "tornado": 175,
+  "hail_ice": 111,
+  "drought": 446,
+  "flood": 334,
+  "wind": 162,
+  "fast_pool": 499,
+  "hurricane": 51,
+  "slow_pool_drought_flood": 780,
+  "spei_drought": 939
+}

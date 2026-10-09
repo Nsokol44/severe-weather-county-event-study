@@ -1,0 +1,12 @@
+{
+  "spei_shock_cy": 13994,
+  "reporting_shock_cy": 5705,
+  "both_cy": 3248,
+  "jaccard": 0.19743480639474803,
+  "control_contamination_reporting_screened": {
+    "share_all_controls": 0.5344270013979582,
+    "share_same_state_controls": 0.8373254166385534,
+    "n_control_units_rel0": 547942,
+    "n_same_state_control_units_rel0": 14821
+  }
+}

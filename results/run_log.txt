@@ -1,0 +1,52 @@
+[    1.1s] stage 0 baseline: cohorts {'tornado': 719, 'hurricane': 223, 'hail_ice': 600, 'drought': 921, 'flood': 1115, 'wind': 728}
+[    2.4s] stage1 tornado   ln_pc_income     n= 175 post=+0.18pp (se 0.43) pretrend p=0.672
+[    3.9s] stage1 tornado   ln_employment    n= 175 post=-0.84pp (se 0.40) pretrend p=0.469
+[    4.4s] stage1 tornado   ln_population    n= 175 post=-0.53pp (se 0.31) pretrend p=0.306
+[    4.9s] stage1 hail_ice  ln_pc_income     n= 111 post=+0.04pp (se 0.80) pretrend p=0.432
+[    5.2s] stage1 hail_ice  ln_employment    n= 111 post=-0.17pp (se 0.42) pretrend p=0.407
+[    5.6s] stage1 hail_ice  ln_population    n= 111 post=-0.28pp (se 0.42) pretrend p=0.753
+[    8.4s] stage1 drought   ln_pc_income     n= 446 post=-0.86pp (se 0.30) pretrend p=0.737
+[   12.2s] stage1 drought   ln_employment    n= 446 post=+0.06pp (se 0.67) pretrend p=0.601
+[   14.5s] stage1 drought   ln_population    n= 446 post=+0.11pp (se 0.31) pretrend p=0.350
+[   15.6s] stage1 flood     ln_pc_income     n= 334 post=+0.31pp (se 0.38) pretrend p=0.755
+[   16.4s] stage1 flood     ln_employment    n= 334 post=-0.62pp (se 0.36) pretrend p=0.084
+[   17.2s] stage1 flood     ln_population    n= 334 post=-0.35pp (se 0.21) pretrend p=0.216
+[   17.7s] stage1 wind      ln_pc_income     n= 162 post=+0.50pp (se 0.63) pretrend p=0.345
+[   18.0s] stage1 wind      ln_employment    n= 162 post=-0.21pp (se 0.32) pretrend p=0.765
+[   18.4s] stage1 wind      ln_population    n= 162 post=-0.44pp (se 0.42) pretrend p=0.629
+[   40.5s] stage2 drought_only   ln_pc_income     lead_adj=False contrast=-1.11pp (se 0.41)
+[   40.5s] stage2 drought_only   ln_pc_income     lead_adj=True contrast=-1.15pp (se 0.76)
+[   45.3s] stage2 drought_only   ln_employment    lead_adj=False contrast=+0.79pp (se 0.71)
+[   45.3s] stage2 drought_only   ln_employment    lead_adj=True contrast=+1.44pp (se 0.98)
+[   49.0s] stage2 drought_only   ln_population    lead_adj=False contrast=+0.70pp (se 0.39)
+[   49.0s] stage2 drought_only   ln_population    lead_adj=True contrast=+1.18pp (se 0.57)
+[   55.4s] stage2 drought_flood  ln_pc_income     lead_adj=False contrast=-0.52pp (se 0.43)
+[   55.4s] stage2 drought_flood  ln_pc_income     lead_adj=True contrast=-0.52pp (se 0.54)
+[   60.5s] stage2 drought_flood  ln_employment    lead_adj=False contrast=+0.38pp (se 0.50)
+[   60.5s] stage2 drought_flood  ln_employment    lead_adj=True contrast=+0.62pp (se 0.74)
+[   66.0s] stage2 drought_flood  ln_population    lead_adj=False contrast=+0.39pp (se 0.32)
+[   66.0s] stage2 drought_flood  ln_population    lead_adj=True contrast=+0.59pp (se 0.50)
+[   66.2s] stage3 standalone_exclusive_pm3   ln_pc_income     n=51 post=+0.33pp (se 0.83)
+[   66.3s] stage3 standalone_exclusive_pm3   ln_employment    n=51 post=-0.23pp (se 0.78)
+[   66.7s] stage3 same_year_exclusivity      ln_pc_income     n=116 post=-0.49pp (se 0.72)
+[   66.9s] stage3 same_year_exclusivity      ln_employment    n=116 post=-0.45pp (se 0.90)
+[   77.5s] stage4 fast     ln_pc_income     hit    post=+0.29pp (se 0.31) MDE=0.86pp
+[   77.5s] stage4 fast     ln_pc_income     ring1  post=+0.12pp (se 0.17) MDE=0.49pp
+[   88.2s] stage4 fast     ln_employment    hit    post=-0.49pp (se 0.21) MDE=0.59pp
+[   88.2s] stage4 fast     ln_employment    ring1  post=-0.14pp (se 0.19) MDE=0.53pp
+[   91.2s] stage4 drought  ln_pc_income     hit    post=-0.86pp (se 0.30) MDE=0.84pp
+[   91.2s] stage4 drought  ln_pc_income     ring1  post=+0.30pp (se 0.35) MDE=0.97pp
+[   93.9s] stage4 drought  ln_employment    hit    post=+0.06pp (se 0.67) MDE=1.89pp
+[   93.9s] stage4 drought  ln_employment    ring1  post=-0.43pp (se 0.58) MDE=1.63pp
+[  102.0s] stage5 ln_pc_income     declared-undeclared=+0.81pp (se 0.36)
+[  107.9s] stage5 ln_employment    declared-undeclared=-0.21pp (se 0.51)
+[  112.2s] stage6 control contamination (reporting-screened): all 0.534, same-state 0.837
+[  113.7s] stage6 spei[spei_screened] ln_pc_income     n=939 post=+0.12pp (se 0.26) pretrend p=0.160
+[  114.9s] stage6 spei[spei_screened] ln_employment    n=939 post=+0.35pp (se 0.46) pretrend p=0.237
+[  115.8s] stage6 spei[spei_screened] ln_population    n=939 post=+0.07pp (se 0.29) pretrend p=0.755
+[  119.5s] stage6 spei[reporting_screened] ln_pc_income     n=939 post=+0.09pp (se 0.19) pretrend p=0.709
+[  122.0s] stage6 spei[reporting_screened] ln_employment    n=939 post=-0.07pp (se 0.12) pretrend p=0.082
+[  124.6s] stage6 spei[reporting_screened] ln_population    n=939 post=-0.08pp (se 0.09) pretrend p=0.459
+[  124.6s] counts: {'tornado': 175, 'hail_ice': 111, 'drought': 446, 'flood': 334, 'wind': 162, 'fast_pool': 499, 'hurricane': 51, 'slow_pool_drought_flood': 780, 'spei_drought': 939}
+[  124.7s] stage 7 figure inputs + run_manifest.json written
+[  124.7s] done in 124.7 s

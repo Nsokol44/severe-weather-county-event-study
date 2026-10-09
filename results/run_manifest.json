@@ -1,0 +1,60 @@
+{
+  "paper": "Severe-weather county event study",
+  "build_date": "2026-10-07",
+  "python": "3.12.3",
+  "pandas": "3.0.6",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "matplotlib": "3.11.2",
+  "xarray": "2026.9.0",
+  "platform": "Linux-7.0.0-39-generic-x86_64-with-glibc2.39",
+  "seed": 20261006,
+  "control_cap_per_stack": 600,
+  "scale_frac_income": 0.00125,
+  "data_hashes": {
+    "panel_county_year.parquet": "ca9905c3e032dc5c6a04a79087ff97a9c199bce3d5d6bb59804c9aa124c47aba",
+    "spei_county_year.csv": "31e38767da081a17d191b3b71b6a377f0107e692dae22d995d5a9b177f6e6eb7",
+    "fema_declarations.csv": "72b678ecc141b75539fdbc99bd75fea8628aa367a4264e4e9c8be21cbe1e6e18"
+  },
+  "runtime_seconds_run_all": 124.7,
+  "expected_outputs": {
+    "tables_and_data": [
+      "baseline_corrected_summary.json",
+      "cohort_counts.json",
+      "cohort_locations.csv",
+      "fema_share_by_peril.csv",
+      "onset_group_summary.csv",
+      "paths_onset_contrast.csv",
+      "paths_primary.csv",
+      "paths_spei.csv",
+      "paths_spei_unscreened.csv",
+      "ring_distances.json",
+      "spei_agreement.json",
+      "table2_primary_per_peril.csv",
+      "table3_onset_contrast.csv",
+      "table4_rings_stacked.csv",
+      "table5_fema_split.csv",
+      "table6_spei_drought.csv",
+      "table_hurricane_sensitivity.csv"
+    ],
+    "figures": [
+      "fig1_cohort_maps.png",
+      "fig1_cohort_maps.pdf",
+      "fig2_income_paths.png",
+      "fig2_income_paths.pdf",
+      "fig3_employment_paths.png",
+      "fig3_employment_paths.pdf",
+      "fig4_onset_contrast.png",
+      "fig4_onset_contrast.pdf",
+      "fig5_spillover_rings.png",
+      "fig5_spillover_rings.pdf",
+      "fig6_declaration_split.png",
+      "fig6_declaration_split.pdf",
+      "fig7_drought_regimes.png",
+      "fig7_drought_regimes.pdf"
+    ]
+  },
+  "universe_counties": 3140,
+  "spei_primary_control_screening": "spei_screened (no SPEI or reporting shock in [g-3, g+3]); reporting_screened rows in table6_spei_drought.csv are the original construction, retained for transparency",
+  "figures_generated_by": "code/figures.py (run after run_all.py)"
+}

@@ -1,0 +1,60 @@
+[
+  {
+    "outcome": "ln_pc_income",
+    "n_stacks": 3191,
+    "n_obs": 8823136,
+    "raw_avg_post_contrast": {
+      "slow_minus_fast": -0.008676521568893862,
+      "se": 0.0023837876874111723
+    },
+    "lead_adjusted_contrast": {
+      "slow_minus_fast": 0.001486791596353748,
+      "se": 0.003050185992185626
+    },
+    "fast_lead_mean": {
+      "coef": 0.003107056791024419,
+      "se": 0.0012483055350797864
+    },
+    "fast_post_lead_adjusted": {
+      "coef": -0.006107239382398251,
+      "se": 0.001996765176695047
+    },
+    "slow_lead_mean": {
+      "coef": -0.00705625637422319,
+      "se": 0.0017561609397149195
+    },
+    "slow_post_lead_adjusted": {
+      "coef": -0.0046204477860445035,
+      "se": 0.002415547567129075
+    }
+  },
+  {
+    "outcome": "ln_employment",
+    "n_stacks": 3191,
+    "n_obs": 8823136,
+    "raw_avg_post_contrast": {
+      "slow_minus_fast": -0.004780857093761015,
+      "se": 0.00206121450029324
+    },
+    "lead_adjusted_contrast": {
+      "slow_minus_fast": -0.0013980370977241716,
+      "se": 0.0029142698650026465
+    },
+    "fast_lead_mean": {
+      "coef": 0.0009187062202223653,
+      "se": 0.0008288154111119517
+    },
+    "fast_post_lead_adjusted": {
+      "coef": -0.00029983367800596816,
+      "se": 0.0016192447694461547
+    },
+    "slow_lead_mean": {
+      "coef": -0.0024641137758144777,
+      "se": 0.0013643398287231335
+    },
+    "slow_post_lead_adjusted": {
+      "coef": -0.0016978707757301396,
+      "se": 0.0025057717402804285
+    }
+  }
+]
